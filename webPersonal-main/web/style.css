@@ -1,0 +1,156 @@
+
+body, html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #dbe7fa;
+}
+
+
+header {
+  color: #ffffff;
+  padding: 30px;
+  text-align: left;
+  background-image: url(/web/imagenes/hotDogs.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 50px;
+}
+
+
+
+nav {
+  background-color: #313861;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: sticky; 
+  top: 0; 
+  color: white; 
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+
+.intro, #evento1, #evento2, #evento3, #evento4, #registrarse {
+  border: 1px solid #df77772d;
+  background-color: #fff7ec;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+img {
+max-width: 75%;
+border-radius: 5px;
+}
+
+.Fran, .Iban, .Edu, .Inty {
+  width: 150px; 
+  height: 165px;
+  float: left;
+  margin-right: 30px;
+  padding-right: 5px;
+ 
+}
+
+#Fran, #Iban, #Edu, #Inty {
+  background-color: antiquewhite;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  clear: both;
+  box-shadow: 0 4px 6px #000000;
+}
+
+h3 {
+  color: #313861;
+  margin: 10px ;
+}
+
+
+footer {
+  background-color: #313861;
+  color: #ffffff;
+  padding: 20px 10px;
+  margin-top: 30px;
+  position: bottom;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: auto;
+}
+
+.footer-section {
+  padding: 15px;
+  min-width: 250px;
+
+}
+
+.footer-section p {
+  border-bottom: 2px solid #ff9900;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.footer-bottom {
+  background-color: #313861;
+  padding: 10px 0;
+  color: #bbb;
+  margin-top: 15px;
+ 
+}
+
+
+iframe {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  padding: 15px;
+    
+}
+
+  
+
