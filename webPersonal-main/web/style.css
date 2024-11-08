@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 
-.intro, #evento1, #evento2, #evento3, #evento4, #registrarse {
+.caja, #evento1, #evento2, #evento3, #evento4, #registrarse {
   border: 1px solid #df77772d;
   background-color: #fff7ec;
   padding: 15px;
